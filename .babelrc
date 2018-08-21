@@ -6,9 +6,10 @@
       {
         "extensions": [".js", ".jsx", ".scss"],
         "alias": {
+          "@components": "./src/components",
+          "@pages": "./src/pages",
           "@styles": "./src/styles",
-          "@test": "./src/__test__",
-          "@pages": "./src/pages"
+          "@test": "./src/__test__"
         }
       }
     ]
