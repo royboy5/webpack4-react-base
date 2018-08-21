@@ -1,3 +1,17 @@
 {
-  "presets": ["env", "react"]
+  "presets": ["env", "stage-3", "react"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "extensions": [".js", ".jsx", ".scss"],
+        "alias": {
+          "@styles": "styles",
+          "@test": "__test__",
+          "@pages": "pages"
+        }
+      }
+    ]
+  ]
 }
