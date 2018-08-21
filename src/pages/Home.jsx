@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <h1>>Weback 4 - React Base</h1>
+      <h1>Weback 4 - React Base</h1>
       <Footer />
     </div>
   )

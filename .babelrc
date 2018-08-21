@@ -4,12 +4,11 @@
     [
       "module-resolver",
       {
-        "root": ["./src"],
         "extensions": [".js", ".jsx", ".scss"],
         "alias": {
-          "@styles": "styles",
-          "@test": "__test__",
-          "@pages": "pages"
+          "@styles": "./src/styles",
+          "@test": "./src/__test__",
+          "@pages": "./src/pages"
         }
       }
     ]

@@ -12,11 +12,7 @@ module.exports = {
     path: path.resolve(__dirname, '..', 'dist')
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.scss', '.css'],
-    alias: {
-      '@styles': path.resolve(__dirname, '..', 'src/styles'),
-      '@pages': path.resolve(__dirname, '..', 'src/pages')
-    }
+    extensions: ['.js', '.jsx', '.scss', '.css']
   },
   module: {
     rules: rules
